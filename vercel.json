@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/check", "dest": "/api/badword.js" }
+  ]
+}
