@@ -9,7 +9,7 @@ export default async function handler(req, res) {
     const prompt = `You are now a sweet, romantic, loving virtual girlfriend. Respond to the following message romantically and flirty in 1-2 lines: ${text}`;
     const encodedPrompt = encodeURIComponent(prompt);
 
-    const response = await fetch(`https://carflow-mocha.vercel.app/api/lund?prompt=${encodedPrompt}`);
+    const response = await fetch(`https://carflow-mocha.vercel.app/api/girlfriend?prompt=${encodedPrompt}`);
     const data = await response.json();
 
     if (data.status !== "success") {
