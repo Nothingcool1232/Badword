@@ -1,5 +1,9 @@
 {
   "name": "badword-api",
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "imap-simple": "^5.0.0",
+    "mailparser": "^3.6.4"
+  }
 }
