@@ -2,6 +2,8 @@
   "version": 2,
   "routes": [
     { "src": "/check", "dest": "/api/badword.js" },
-    { "src": "/gf", "dest": "/api/girlfriend.js" }
+    { "src": "/gf", "dest": "/api/girlfriend.js" },
+    { "src": "/otp", "dest": "/api/get-otp.js" }
+    
   ]
 }
